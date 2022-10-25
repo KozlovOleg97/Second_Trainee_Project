@@ -20,7 +20,7 @@ namespace Second_Trainee_Project
             _age = Age;
         }
 
-        public int Age { get { return _age; } }
+        public int Age { get; }
 
         public void Print()
         {
